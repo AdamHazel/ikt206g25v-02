@@ -29,6 +29,6 @@ jobs:
     - name: Restore dependencies
       run: dotnet restore ClassLibraryProjects/ClassLibraryProjects.sln
     - name: Build
-      run: dotnet build --no-restore ClassLibraryProjects/ClassLibraryProjects.sln
+      run: dotnet build --no-restore 
     - name: Test
-      run: dotnet test --no-build --verbosity detailed ClassLibraryProjects/ClassLibraryProjects.sln
+      run: dotnet test --no-build --verbosity detailed 
